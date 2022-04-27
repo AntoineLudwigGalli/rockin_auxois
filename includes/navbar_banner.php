@@ -1,6 +1,6 @@
 <header>
     <div class="row">
-        <img src="images/banniere2.jpg" alt="banniere rockin'auxois" id="banner" class="col-8 offset-2 p-0 banner">
+        <img src="images/banniere4.jpeg" alt="banniere rockin'auxois" id="banner" class="col-8 offset-2 p-0 banner">
     </div>
 </header>
 <nav>
