@@ -1,0 +1,86 @@
+/* Background de la page*/
+body
+{
+	background-image: url(images/background.jpg);
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#bloc_page
+{
+	width: 1000px;
+	margin: auto;
+}
+
+/* Bannière*/
+#banniere
+{
+	width: 100%;
+	height: 400px;
+}
+
+/*menu*/
+nav ul
+{
+	list-style: none;
+	display: flex;
+}
+nav li
+{
+	margin: auto;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+/*titre et logo*/
+#logo
+{
+	float: left;
+	display: flex;
+	position: absolute;
+}
+
+h1
+{
+	text-align: center;
+}
+
+#titre_principal
+{
+	line-height: 226px;
+	text-align: center;
+}
+
+/*Intro*/
+
+
+
+/*Description émissions*/
+#metalesia
+{
+	display: flex;
+}
+
+/*Dernière Emission*/
+#emission
+{
+	text-align: center;
+}
+
+/*Contacts*/
+#contact
+{
+	position: absolute;
+	vertical-align: middle;
+}
+
+ul
+{
+	list-style: none;
+}
+
+li
+{
+	text-align: left;
+	margin-left: 25%;
+}
