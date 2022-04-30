@@ -1,24 +1,35 @@
  /*Paramètres généraux*/
 body{
-    background-color: #060e2c;
+    margin: 0;
+    padding: 0;
+    background: url("../images/background.jpg") fixed;
+    background-size: cover;
 }
 
- /*Disposition du menu de navigation*/
- nav>div ul{
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
-     align-items: center;
+ h2, h3, nav a{
+     text-transform: uppercase;
  }
 
- nav>div ul li{
-     list-style-type: none;
-     width: 100px;
-     text-align: center;
- }
- nav>div ul li a{
+ a{
      text-decoration: none;
-     font-size: larger;
-     color: white;
-     text-transform: uppercase;
+ }
+
+ ul li{
+     list-style-type: none;
+ }
+
+ /*Disposition du menu de navigation et du header*/
+ header{
+     background-color: #212529;
+ }
+ /*Disposition de la section emission*/
+#emission>div>img{
+   object-fit: cover;
+}
+
+
+ /*Playlist*/
+
+ .target .normal{
+     display: none;
  }

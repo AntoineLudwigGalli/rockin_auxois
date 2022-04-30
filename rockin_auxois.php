@@ -1,21 +1,9 @@
-   <!DOCTYPE html>
-   <html>
-<meta charset="utf-8"> <link rel="stylesheet" type="text/css" href="rockin_auxois.css">
-<head>
+<?php require "includes/header.php"?>
 	<title>Rockin'Auxois / Metalesia</title>
 </head>
 
 <body>
-	<header>
-		<img src="images/banniere2.jpg" alt="banniere rockin'auxois" id="banniere">
-		<nav>
-			<ul>
-				<li>Actualités <br>et sorties</li>
-				<li>Info concerts</li>
-				<li>Podcasts</li>
-			</ul>
-		</nav>
-	</header>
+	<?php include "includes/navbar_banner.php"?>
 
 	<section>
 			<img src="images/logo.jpg" alt="Vercingetorix rock" id="logo">
@@ -65,6 +53,6 @@
 			<li><img class="contact" src="images/radio.png" alt="radio"><a href><http://www.auxois-fm.fr>Auxois FM</a></li>
 		</ul>
 	</section>
-
+<?php include "includes/js_includes.php" ?>
 </body>
 </html>
