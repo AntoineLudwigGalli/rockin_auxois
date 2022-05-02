@@ -17,7 +17,8 @@ require "includes/header.php";?>
                          class="col-2 offset-1 py-2">
                     <h2 class="col-6 d-flex align-items-center">The emission</h2>
                 </div>
-                <article class="col-8 offset-1">
+<!--                todo Faire le bouton pour afficher plus de texte-->
+                <article class="col-10 col-md-8 offset-1">
                     <p>Bonjour à toutes et à tous ! Je suis <em>Le Duc</em>, aka Antoine Ludwig, créateur,
                         programmateur et animateur des émissions <em>Rockin' Auxois</em> et <em>Metalesia</em> sur la radio <a href="http://www.auxois-fm.fr">Auxois FM</a>.</p>
                         <p>Pour la petite histoire, j'étais auparavant chroniqueur dans l'émission de metal extrème
@@ -31,12 +32,12 @@ require "includes/header.php";?>
                         <p>Pour le contenu des émissions, les podcasts et les diverses infos, je vous laisse farfouiller
                             sur le site. Et n'oubliez pas qu'un <em>petit mot gentil </em>via l'onglet contact ou sur Facebook, ça fait toujours <em>super plaisir</em> !</p>
                 </article>
-                <aside class="col-2 ms-5">
-                    <figure>
+                <aside class="col-12 col-md-2 ms-md-5 d-flex justify-content-evenly d-md-block">
+                    <figure class=" text-center">
                         <img src="images/duc.jpg" alt="animateur radio" title="Le Duc, votre humble programmateur et animateur">
                         <figcaption class="text-center">Le Duc</figcaption>
                     </figure>
-                    <figure>
+                    <figure class="text-center">
                         <img src="images/arthur.jpg" alt="assistant programmateur" title="Tutur Le Dur, assistant programmateur">
                         <figcaption class="text-center">Tutur Le Dur, mon assistant</figcaption>
                     </figure>
@@ -56,15 +57,15 @@ require "includes/header.php";?>
                 </article>
             </section>
             <section class="row" id="last-podcast">
-                <article class="col-8 offset-1">
+                <article class="col-12 col-md-8 offset-md-1">
                     <h2>Dernière Emission</h2>
                     <p>
                         <a href="https://drive.google.com/file/d/1HjsUDuVNtSrXi3S_MqMoFMiFNQor1H1J/view?usp=sharing" target="blank">Ecouter ou télécharger la dernière émission</a>
                     </p>
-                    <div class="target">
-                        <div class="btn btn-dark btn-lg tiny">Voir la playlist</div>
-                        <div class="normal btn btn-dark btn-lg">
-                            <h3>Playlist</h3>
+                    <div class="target col-10 offset-1 col-md-8">
+                        <div class="tiny">Voir la playlist</div>
+                        <div class="normal">
+                            <h3><i class="fa-solid fa-caret-up"></i> Playlist</h3>
                             <ol>
                                 <li>Lorem ipsum dolor.</li>
                                 <li>Lorem ipsum dolor.</li>
@@ -84,7 +85,7 @@ require "includes/header.php";?>
         </main>
         <footer class="row">
                 <h2 class="my-5 text-center">Contacts</h2>
-                <ul class="d-md-flex flex-md-row justify-content-md-around col-8 offset-2">
+                <ul class="d-md-flex flex-md-row justify-content-md-around col-md-8 offset-md-2 offset-3">
                     <li><a href="mailto:metalesia@gmail.com"><i class="fa-solid fa-envelope"></i> Envoyer un
                             mail</a></li>
                     <li><a href="https://www.facebook.com/rockinauxoismetalesia/">
